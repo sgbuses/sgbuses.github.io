@@ -120,8 +120,9 @@ body.keyboard-focused .dropdown-content li:focus{background-color:#dadada}
 </style>
 </head>
 <body>
-<div class="container">
 
+<div class="container">
+<header><h4>SGBUSES |<u>| <a href="?">Timings</a> |</u>| <a href="routes.html">Routes</a> ||</h4></header>
 <form onsubmit="submitbtn()">
 <div class="row">
   <input type="text" class="form-control" name="BusStopID" id="BusStopNumber" name="keywords" list="BusStopSet">
@@ -143,7 +144,7 @@ temparray=[];
 for (x=0; x<j.length-1; x++){
 var dist=distVincenty(Number(j[x]["Latitude"]), Number(j[x]["Longitude"]), Number(xpos), Number(ypos));
 
-      if ( dist <= 350 || ['52051','52059','52039','52361','62071','66009','80279'].includes(j[x].BusStopCode)) {
+      if ( dist <= 350 ) {
 	 temparray.push([j[x].BusStopCode,j[x].Description,Math.floor(parseInt(dist))]);
 	 
 	 }
