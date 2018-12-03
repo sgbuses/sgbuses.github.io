@@ -1,0 +1,31 @@
+{
+"name": "NGBUSES",
+"short_name": "BUS",
+"start_url": "/?homescreen=1",
+"scope": "/",	
+"orientation": "any",
+"background_color": "#f5f5f5",
+"theme_color": "aliceblue",
+	"display": "standalone",
+"icons": [
+  {
+    "src": "https://ngbuses.github.io/apple-touch-icon-57x57.png",
+    "sizes": "57x57"
+  },
+  {
+    "src": "https://ngbuses.github.io/favicon.ico",
+    "sizes": "16x16 32x32 96x96 128x128 196x196"
+  },
+  {
+    "src": "https://ngbuses.github.io/mstile-144x144.png",
+    "sizes": "144x144"
+  },
+  {
+    "src": "https://ngbuses.github.io/nxy.svg"
+  },
+  {
+    "src": "https://ngbuses.github.io/mstile-310x310.png"
+  }
+]
+
+}
